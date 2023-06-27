@@ -1,4 +1,5 @@
 {
+  "homepage": "http://amirNejat-21.github.io/Portfolio-react-tailwind ",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -34,7 +35,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -57,6 +60,7 @@
   "devDependencies": {
     "@types/react-mailchimp-subscribe": "^2.1.1",
     "@types/react-router-hash-link": "^2.4.6",
+    "gh-pages": "^5.0.0",
     "tailwindcss": "^3.3.2"
   }
 }
