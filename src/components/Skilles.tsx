@@ -35,10 +35,10 @@ const Skilles = () => {
 
     return (
         <section id='Skilles' className='pb-[50px] relative'>
-            <div className='max-w-[390px] sm:max-w-[570px] md:max-w-[720px] lg:max-w-[940px] xl:max-w-[1140px] 2xl:max-w-[1320px] mr-auto ml-auto'>
-                <div className='flex flex-wrap'>
+            <div className=' mr-auto ml-auto w-full sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1320px] '>
+                <div className='flex flex-wrap mr-2 ml-2'>
                     <div className='flex-auto w-[100%]'>
-                        <div className='bg-[#151515] rounded-[64px] text-center py-[60px] px-[50px] mt-[-100px]'>
+                        <div className='bg-[#151515] rounded-[64px] text-center py-[60px] px-[50px] mt-[60px] md:mt-[-60px] lg:mt-[-100px] xl:mt-[-120px] 2xl:mt-[-150px]'>
                             <h2 className='text-[45px] font-bold'>Skills</h2>
                             <p className='text-[#B8B8B8] text-[18px] tracking-[0.8px] leading-[1.5em] mt-[14px] mb-[75px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/> Lorem Ipsum has been the industry's standard dummy text.</p>
                             <Carousel responsive={responsive} infinite={true} className="w-[80%] my-0 mx-auto">
@@ -66,7 +66,7 @@ const Skilles = () => {
                 </div>
 
             </div>
-            <img className="absolute top-[28%] bottom-0 w-[40%] z-[-4] " src={colorSharp} alt="Image" />
+            <img className="absolute top-[28%] bottom-[0px] w-[40%] z-[-4] " src={colorSharp} alt="Image" />
         </section>
     );
 };
