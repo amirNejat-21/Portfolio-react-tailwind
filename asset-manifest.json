@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-react-tailwind/static/css/main.ffd74571.css",
-    "main.js": "/Portfolio-react-tailwind/static/js/main.34d26ad3.js",
+    "main.css": "/Portfolio-react-tailwind/static/css/main.3bac8751.css",
+    "main.js": "/Portfolio-react-tailwind/static/js/main.412dceec.js",
     "static/media/color-sharp.png": "/Portfolio-react-tailwind/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/Portfolio-react-tailwind/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/banner-bg(1).png": "/Portfolio-react-tailwind/static/media/banner-bg(1).cc1273af450504afe755.png",
@@ -21,11 +21,11 @@
     "static/media/meter1(1).svg": "/Portfolio-react-tailwind/static/media/meter1(1).c4085ff859afbd8488e9da47d4953850.svg",
     "static/media/meter3.svg": "/Portfolio-react-tailwind/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
     "index.html": "/Portfolio-react-tailwind/index.html",
-    "main.ffd74571.css.map": "/Portfolio-react-tailwind/static/css/main.ffd74571.css.map",
-    "main.34d26ad3.js.map": "/Portfolio-react-tailwind/static/js/main.34d26ad3.js.map"
+    "main.3bac8751.css.map": "/Portfolio-react-tailwind/static/css/main.3bac8751.css.map",
+    "main.412dceec.js.map": "/Portfolio-react-tailwind/static/js/main.412dceec.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffd74571.css",
-    "static/js/main.34d26ad3.js"
+    "static/css/main.3bac8751.css",
+    "static/js/main.412dceec.js"
   ]
 }
