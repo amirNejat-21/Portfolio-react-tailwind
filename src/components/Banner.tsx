@@ -16,7 +16,7 @@ const Banner = () => {
 
     return (
         <section id='Banner'  className=''>
-               <img src={bg} alt="bg"  className=' bg-cover bg-no-repeat bg-center h-[120vh] w-[100%] '/>  
+               <img src={bg} alt="bg"  className=' bg-cover bg-no-repeat bg-center h-[120vh]  '/>  
               <div className='max-w-[390px] sm:max-w-[570px] md:max-w-[720px] lg:max-w-[940px] xl:max-w-[1140px] 2xl:max-w-[1320px] mr-auto ml-auto absolute top-[250px] left-[20px]  '>
                 <div className='flex flex-wrap '>
                     <div className=' xl:flex-auto xl:w-[58.3%]  md:flex-initial md:w-[50%] sm:flex-initial sm:w-[100%]'>
@@ -43,11 +43,11 @@ const Banner = () => {
                         </div>}
                         </TrackVisibility>
                     </div>
-                    <div className=' xl:flex-auto xl:w-[41.3%]  md:flex-initial md:w-[50%] sm:flex-initial sm:w-[100%]' >
+                    <div className=' pr-2 pl-2 mr-auto ml-auto w-full flex-auto md:flex-auto md:w-[50%]   xl:flex-auto xl:w-[41.3%]   ' >
                     <TrackVisibility>
                      {({ isVisible }: { isVisible: boolean }) =>
                         <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                            <img src={headerImg} alt='avatar' className='animate-[updown_3s_linear_infinite] w-[526px] ml-5' />
+                            <img src={headerImg} alt='avatar' className='animate-[updown_3s_linear_infinite] pr-2 pl-2 mr-auto ml-auto w-[100%] h-auto ' />
                         </div>}
                         </TrackVisibility>
                     </div>

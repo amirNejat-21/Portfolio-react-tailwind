@@ -21,19 +21,19 @@ const Contact = () => {
                         <form>
                             <div className='flex flex-wrap '>
                                 <div className='px-1 flex-auto w-[100%] sm:flex-auto sm:w-[50%] xl:flex-auto xl:w-[50%]  '>
-                                    <input type="text" placeholder='First Name' className='w-full bg-[#FFFFFF1A] border border-solid border-[#FFFFFF80] rounded-[20px] text-white mb-[8px] py-[18px] px-[26px] font-medium text-[18px] duration-300 ease-in-out '  />
+                                    <input type="text" placeholder='First Name' className=' focus:bg-[#fff] w-full bg-[#FFFFFF1A] border border-solid border-[#FFFFFF80] rounded-[20px] text-black mb-[8px] py-[18px] px-[26px] font-medium text-[18px] duration-300 ease-in-out '  />
                                 </div>
                                 <div className='px-1 flex-auto w-[100%] sm:flex-auto sm:w-[50%] xl:flex-auto xl:w-[50%]'>
-                                    <input type="text" placeholder='Last Name' className='w-full bg-[#FFFFFF1A] border border-solid border-[#FFFFFF80] rounded-[20px] text-white mb-[8px] py-[18px] px-[26px] font-medium text-[18px] duration-300 ease-in-out '  />
+                                    <input type="text" placeholder='Last Name' className=' focus:bg-[#fff] w-full bg-[#FFFFFF1A] border border-solid border-[#FFFFFF80] rounded-[20px] text-black mb-[8px] py-[18px] px-[26px] font-medium text-[18px] duration-300 ease-in-out '  />
                                 </div>
                                 <div className='px-1 flex-auto w-[100%] sm:flex-auto sm:w-[50%] xl:flex-auto xl:w-[50%]'>
-                                    <input type="text" placeholder='Email Address' className='w-full bg-[#FFFFFF1A] border border-solid border-[#FFFFFF80] rounded-[20px] text-white mb-[8px] py-[18px] px-[26px] font-medium text-[18px] duration-300 ease-in-out '  />
+                                    <input type="text" placeholder='Email Address' className=' focus:bg-[#fff] w-full bg-[#FFFFFF1A] border border-solid border-[#FFFFFF80] rounded-[20px] text-black mb-[8px] py-[18px] px-[26px] font-medium text-[18px] duration-300 ease-in-out '  />
                                 </div>
                                 <div className='px-1 flex-auto w-[100%] sm:flex-auto sm:w-[50%] xl:flex-auto xl:w-[50%]'>
-                                    <input type="text" placeholder='phone' className='w-full bg-[#FFFFFF1A] border border-solid border-[#FFFFFF80] rounded-[20px] text-white mb-[8px] py-[18px] px-[26px] font-medium text-[18px] duration-300 ease-in-out '  />
+                                    <input type="text" placeholder='phone' className=' focus:bg-[#fff] w-full bg-[#FFFFFF1A] border border-solid border-[#FFFFFF80] rounded-[20px] text-black mb-[8px] py-[18px] px-[26px] font-medium text-[18px] duration-300 ease-in-out '  />
                                 </div>
                                 <div className='px-1 xl:flex-auto xl:w-[100%] flex-auto w-[100%]'>
-                                    <textarea rows={6}  placeholder='Message' className='  w-full bg-[#FFFFFF1A] border border-solid border-[#FFFFFF80] rounded-[20px] text-white mb-[8px] py-[18px] px-[26px] font-medium text-[18px] duration-300 ease-in-out '></textarea>
+                                    <textarea rows={6}  placeholder='Message' className='focus:bg-[#fff]  w-full bg-[#FFFFFF1A] border border-solid border-[#FFFFFF80] rounded-[20px] text-black mb-[8px] py-[18px] px-[26px] font-medium text-[18px] duration-300 ease-in-out '></textarea>
                                     <button className="font-bold text-black hover:text-[#121212] border border-solid border-white py-[15px] px-[45px] text-lg  relative bg-white  "><span className='z-[1]'>Send</span></button>
                                 </div>
                             </div>
